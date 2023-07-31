@@ -5,6 +5,8 @@ const {
   techSkills,
   workExperience,
   projects,
+  education,
+  languages,
 } = require("./data");
 
 const PORT = 8080;
@@ -33,6 +35,14 @@ app.get("/workExperience", (req, res) => {
 
 app.get("/projects", (req, res) => {
   res.status(200).json(projects);
+});
+
+app.get("/education", (req, res) => {
+  res.status(200).json(education);
+});
+
+app.get("/languages", (req, res) => {
+  res.status(200).json(languages);
 });
 
 app.listen(PORT, () => {

@@ -234,4 +234,6 @@ module.exports = {
   techSkills,
   workExperience,
   projects,
+  education,
+  languages,
 };
