@@ -6,10 +6,9 @@ const summary = {
   ukr: "Я фронтенд React розробник. Я спеціалізуюсь на HTML, CSS, SASS, JS, React. Розвиток, практика для мене дуже важливі. Готовий витратити багато часу на навчання. Буду радий навчитися чомусь новому від колег, віддаю перевагу роботі з прогресивними людьми. Я дуже цілеспрямований. Зазвичай я сприймаю цілі компанії як свої особисті цілі.",
 };
 
-const currentId = nanoid();
 const softSkills = [
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I can write a project from scratch",
       ru: "Могу написать проект с нуля",
@@ -17,7 +16,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I know git commands, I can work with different branches, pull requests and conflicts",
       ru: "Я знаю git-команди, умею работать з разними ветками, пул реквестами и конфликтами",
@@ -25,7 +24,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I understand how the work process is built in the team",
       ru: "Я понимаю как построен рабочий процес в колективе",
@@ -33,7 +32,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I am a very communicative person",
       ru: "Я очень коммуникабельный человек",
@@ -41,7 +40,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I am a multi-tasker and I know how to prioritize",
       ru: "Я многозадачный и умею расставлять приоритеты",
@@ -49,7 +48,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I take responsibility for my decisions",
       ru: "Я отвечаю за свои решения",
@@ -57,7 +56,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I know how to find compromises in any situation, I respect a different point of view",
       ru: "Умею находить компромисы в любой ситуации, уважаю другие точки зрения",
@@ -65,7 +64,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I understand how to transform business tasks into development tasks",
       ru: "Я понимаю как трансформировать бизнес-задачи в технические",
@@ -73,7 +72,7 @@ const softSkills = [
     },
   },
   {
-    id: currentId,
+    id: nanoid(),
     skill: {
       eng: "I take criticism well",
       ru: "Я хорошо воспринимаю критику",
@@ -103,12 +102,12 @@ const techSkills = [
 
 const education = [
   {
-    id: currentId,
+    id: nanoid(),
     title: "IT School GoIT",
     text: "Full stack developer June 2022 - October 2022 |Ukraine",
   },
   {
-    id: currentId,
+    id: nanoid(),
     title: "Kyiv National University of Trade and Economics",
     text: "Restaurant business 2015 - 2018",
   },
@@ -116,29 +115,29 @@ const education = [
 
 const languages = [
   {
-    id: currentId,
+    id: nanoid(),
     title: "Ukrainian - native",
   },
   {
-    id: currentId,
+    id: nanoid(),
     title: "Russian - fluent",
   },
   {
-    id: currentId,
+    id: nanoid(),
     title: "English - pre-intermediate",
   },
 ];
 
 const workExperience = [
   {
-    id: currentId,
+    id: nanoid(),
     name: "IdealSoftWare",
     duration: "December 2022  -  Now",
     decsription:
       "it's startUp, duration 6 month i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "BootCamp 24 GoIt",
     duration: "June 2022  -  December 2022",
     decsription:
@@ -148,7 +147,7 @@ const workExperience = [
 
 const projects = [
   {
-    id: currentId,
+    id: nanoid(),
     name: "Merchant",
     repoLink: "https://github.com/VPagent/merchant",
     livePageLink: "https://vpagent.github.io/merchant/register",
@@ -156,7 +155,7 @@ const projects = [
       "This is the implementation of Authorization in 4 steps, custom pagination was developed. Used: React.js Type-Script, JS, SCSS, REST-API, React-Router",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "Graphics",
     repoLink: "https://github.com/VPagent/test-calc",
     livePageLink: "https://vpagent.github.io/test-calc/",
@@ -164,7 +163,7 @@ const projects = [
       "An application that calculates the cost of storage in different companies for the same parameters! I used: React.js, js, SCSS, TypeScript and etc.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "Abz-task",
     repoLink: "https://github.com/VPagent/abz-task",
     livePageLink: "https://vpagent.github.io/abz-task/",
@@ -172,7 +171,7 @@ const projects = [
       "Implemented registration. Using React.js, JS, SCSS, npm-packages, REST-API , TypeScript.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "TMG-task",
     repoLink: "https://github.com/VPagent/tmg-task",
     livePageLink: "https://vpagent.github.io/tmg-task/",
@@ -180,7 +179,7 @@ const projects = [
       "An application that calculates the cost of storage in different companies for the same parameters! I used: React.js, js, SCSS, TypeScript and etc.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "UserCamera",
     repoLink: "https://github.com/VPagent/camera",
     livePageLink: "https://vpagent.github.io/camera/",
@@ -188,7 +187,7 @@ const projects = [
       "In this application i  worked with user Camera on different devices, implemented access request, and possible work with user photo on different pages.  I used: React.js, js, SCSS, TypeScript, userMedia requests.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "PhoneBook & Notes",
     repoLink: "https://github.com/VPagent/my-phone-book",
     livePageLink: "https://vpagent.github.io/my-phone-book/",
@@ -196,7 +195,7 @@ const projects = [
       "This adaptive application about create a PhoneBook and notes page after you pass authorization. Used: React.js Type-Script, JS, SCSS, REST-API ",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "KidsLike",
     repoLink: "https://github.com/VPagent/My-Projet-React",
     livePageLink: "https://kidslike-bc24.netlify.app",
@@ -204,7 +203,7 @@ const projects = [
       "This application to improve the discipline of children will be very useful for parents. Implemented authorization. Using React.js, JS, SCSS, npm-packages, REST-API",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "Jobs Desk",
     repoLink: "https://github.com/VPagent/test-task-finish",
     livePageLink: "https://vpagent.github.io/test-task-finish",
@@ -212,7 +211,7 @@ const projects = [
       "This a two-page site with the ability to save your favorite vacancies. Application developed with: React.js, Type-Script, JS, Google maps, REST-API.  Styles are developed using the Tailwind library.",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "Filmoteka",
     repoLink: "https://github.com/VPagent/project-team1",
     livePageLink: "https://vpagent.github.io/project-team1/",
@@ -220,7 +219,7 @@ const projects = [
       "App about searching movies, and adding favorite movies. Using pure JS, REST-API, npm-packages and SCSS",
   },
   {
-    id: currentId,
+    id: nanoid(),
     name: "IceCream",
     repoLink: "https://github.com/VPagent/project-HTML-CSS",
     livePageLink: "https://olenayatseniuk.github.io/Ice-cream/",
