@@ -14,35 +14,99 @@ const PORT = 8080;
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "I'm ready" });
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json({ message: "I'm ready" });
 });
 
 app.get("/summary", (req, res) => {
-  res.status(200).json(summary);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(summary);
 });
 
 app.get("/softSkills", (req, res) => {
-  res.status(200).json(softSkills);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(softSkills);
 });
 
 app.get("/techSkills", (req, res) => {
-  res.status(200).json(techSkills);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(techSkills);
 });
 
 app.get("/workExperience", (req, res) => {
-  res.status(200).json(workExperience);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(workExperience);
 });
 
 app.get("/projects", (req, res) => {
-  res.status(200).json(projects);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(projects);
 });
 
 app.get("/education", (req, res) => {
-  res.status(200).json(education);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(education);
 });
 
 app.get("/languages", (req, res) => {
-  res.status(200).json(languages);
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json(languages);
 });
 
 app.listen(PORT, () => {
