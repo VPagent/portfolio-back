@@ -82,22 +82,91 @@ const softSkills = [
 ];
 
 const techSkills = [
-  "HTML5",
-  "CSS3",
-  "SASS",
-  "JavaScript",
-  "React",
-  "REST-API",
-  "Type-Script",
-  "Node.js",
-  "Express",
-  "GIT",
-  "WebPack/Parcel",
-  "Redux/Redux-toolkit",
-  "MUI",
-  "Bootstrap",
-  "ANT-design",
-  "Taillwind",
+  {
+    id: nanoid(),
+    title: "HTML5",
+    name: "html",
+  },
+  {
+    id: nanoid(),
+    title: "CSS3",
+    name: "css",
+  },
+  {
+    id: nanoid(),
+    title: "SASS",
+    name: "sass",
+  },
+  {
+    id: nanoid(),
+    title: "JavaScript",
+    name: "javascript",
+  },
+  {
+    id: nanoid(),
+    title: "React",
+    name: "react",
+  },
+  {
+    id: nanoid(),
+    title: "REST-API",
+    name: "restapi",
+  },
+  {
+    id: nanoid(),
+    title: "Type-Script",
+    name: "typescript",
+  },
+  {
+    id: nanoid(),
+    title: "Node.js",
+    name: "node",
+  },
+  {
+    id: nanoid(),
+    title: "Express",
+    name: "express",
+  },
+  {
+    id: nanoid(),
+    title: "GitHub",
+    name: "gihub",
+  },
+  {
+    id: nanoid(),
+    title: "GitLab",
+    name: "gitlab",
+  },
+  {
+    id: nanoid(),
+    title: "WebPack/Parcel",
+    name: "webpack",
+  },
+  {
+    id: nanoid(),
+    title: "Redux/Redux-toolkit",
+    name: "redux",
+  },
+  {
+    id: nanoid(),
+    title: "MUI",
+    name: "mui",
+  },
+  {
+    id: nanoid(),
+    title: "Bootstrap",
+    name: "botstrap",
+  },
+  {
+    id: nanoid(),
+    title: "ANT-design",
+    name: "ant",
+  },
+  {
+    id: nanoid(),
+    title: "Taillwind",
+    name: "taillwind",
+  },
 ];
 
 const education = [
@@ -180,12 +249,21 @@ const projects = [
   },
   {
     id: nanoid(),
+    name: "Architect",
+    repoLink: "https://github.com/VPagent/smart-orange-task",
+    livePageLink: "https://vpagent.github.io/smart-orange-task/",
+    description:
+      "This application is implemented with the help of react, type script, sass modules, custom animations are written, without adaptive",
+  },
+  {
+    id: nanoid(),
     name: "UserCamera",
     repoLink: "https://github.com/VPagent/camera",
     livePageLink: "https://vpagent.github.io/camera/",
     description:
       "In this application i  worked with user Camera on different devices, implemented access request, and possible work with user photo on different pages.  I used: React.js, js, SCSS, TypeScript, userMedia requests.",
   },
+
   {
     id: nanoid(),
     name: "PhoneBook & Notes",
