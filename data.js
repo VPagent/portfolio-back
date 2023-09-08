@@ -202,14 +202,14 @@ const workExperience = [
     id: nanoid(),
     name: "IdealSoftWare",
     duration: "December 2022  -  Now",
-    decsription:
-      "it's startUp, duration 6 month i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application.",
+    description:
+      "it's startUp, i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application.",
   },
   {
     id: nanoid(),
     name: "BootCamp 24 GoIt",
     duration: "June 2022  -  December 2022",
-    decsription:
+    description:
       "have 7 month experience of writing code in GoIt school on BootCamp (really writing code from 9 a.m. to 11 p. m. every day)",
   },
 ];

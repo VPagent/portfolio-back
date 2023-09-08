@@ -1,4 +1,6 @@
 const express = require("express");
+require("dotenv").config();
+
 const {
   softSkills,
   summary,
@@ -12,6 +14,11 @@ const {
 const PORT = 8080;
 
 const app = express();
+const token = process.env.TG_TOKEN;
+const chat_id = process.env.CHAT_ID;
+
+console.log("test", test);
+console.log("process", process.env);
 
 app.get("/", (req, res) => {
   res
@@ -107,6 +114,29 @@ app.get("/languages", (req, res) => {
     )
     .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
     .json(languages);
+});
+
+app.get("/keys", (req, res) => {
+  if (!token || !chat_id) {
+    res
+      .status(500)
+      .header("Access-Control-Allow-Origin", "*")
+      .header(
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept"
+      )
+      .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+      .json({ message: "token or chat_id are undefined" });
+  }
+  res
+    .status(200)
+    .header("Access-Control-Allow-Origin", "*")
+    .header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+    .json({ token, chat_id });
 });
 
 app.listen(PORT, () => {
