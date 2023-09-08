@@ -17,9 +17,6 @@ const app = express();
 const token = process.env.TG_TOKEN;
 const chat_id = process.env.CHAT_ID;
 
-console.log("test", test);
-console.log("process", process.env);
-
 app.get("/", (req, res) => {
   res
     .status(200)
