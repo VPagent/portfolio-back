@@ -217,6 +217,13 @@ const workExperience = [
 const projects = [
   {
     id: nanoid(),
+    name: "Enko trans",
+    livePageLink: "https://enkotrans.com.ua/",
+    description:
+      "This is a commercial website for a logistics company. A responsive layout has been developed and the site is based on WordPress",
+  },
+  {
+    id: nanoid(),
     name: "Merchant",
     repoLink: "https://github.com/VPagent/merchant",
     livePageLink: "https://vpagent.github.io/merchant/register",
@@ -236,8 +243,7 @@ const projects = [
     name: "Abz-task",
     repoLink: "https://github.com/VPagent/abz-task",
     livePageLink: "https://vpagent.github.io/abz-task/",
-    description:
-      "Implemented registration. Using React.js, JS, SCSS, npm-packages, REST-API , TypeScript.",
+    description: "Implemented registration. Using React.js, JS, SCSS, npm-packages, REST-API , TypeScript.",
   },
   {
     id: nanoid(),
@@ -293,16 +299,14 @@ const projects = [
     name: "Filmoteka",
     repoLink: "https://github.com/VPagent/project-team1",
     livePageLink: "https://vpagent.github.io/project-team1/",
-    description:
-      "App about searching movies, and adding favorite movies. Using pure JS, REST-API, npm-packages and SCSS",
+    description: "App about searching movies, and adding favorite movies. Using pure JS, REST-API, npm-packages and SCSS",
   },
   {
     id: nanoid(),
     name: "IceCream",
     repoLink: "https://github.com/VPagent/project-HTML-CSS",
     livePageLink: "https://olenayatseniuk.github.io/Ice-cream/",
-    description:
-      "Ice Cream company site. Neat and tasty design, responsible layout. Using Parcel, SCSS, JS",
+    description: "Ice Cream company site. Neat and tasty design, responsible layout. Using Parcel, SCSS, JS",
   },
 ];
 
