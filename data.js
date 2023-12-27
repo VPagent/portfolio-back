@@ -109,6 +109,11 @@ const techSkills = [
   },
   {
     id: nanoid(),
+    title: "WordPress",
+    name: "wordpress",
+  },
+  {
+    id: nanoid(),
     title: "REST-API",
     name: "restapi",
   },
@@ -200,8 +205,24 @@ const languages = [
 const workExperience = [
   {
     id: nanoid(),
+    name: "Readable games",
+    duration: "June 2023 - Now",
+    description: `Game development, produces games - novels for the US market, work with Unity and Nani`,
+    links: [
+      {
+        linkTitle: "AppStore",
+        linkUrl: "https://apps.apple.com/ua/app/midnight-stories-choice-games/id6444111225?l=en",
+      },
+      {
+        linkTitle: "Google Play",
+        linkUrl: "https://play.google.com/store/apps/details?id=com.DefaultCompany.Midnightstories",
+      },
+    ],
+  },
+  {
+    id: nanoid(),
     name: "IdealSoftWare",
-    duration: "December 2022  -  Now",
+    duration: "December 2022  -  June 2023",
     description:
       "it's startUp, i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application.",
   },
@@ -215,6 +236,14 @@ const workExperience = [
 ];
 
 const projects = [
+  {
+    id: nanoid(),
+    name: "Ilark games",
+    livePageLink: "https://ilark.games/",
+    description: `This is a commercial website for the company I work for, a template was purchased,
+        and more than 50% was rebuilt to suit the company's request. The site was built using
+        WordPress`,
+  },
   {
     id: nanoid(),
     name: "Enko trans",
