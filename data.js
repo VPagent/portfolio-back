@@ -242,7 +242,7 @@ const projects = [
     livePageLink: "https://ilark.games/",
     description: `This is a commercial website for the company I work for, a template was purchased,
         and more than 50% was rebuilt to suit the company's request. The site was built using
-        WordPress and javascript`,
+        WordPress and javascript, sass`,
   },
   {
     id: nanoid(),
