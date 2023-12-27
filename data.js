@@ -249,7 +249,7 @@ const projects = [
     name: "Enko trans",
     livePageLink: "https://enkotrans.com.ua/",
     description:
-      "This is a commercial website for a logistics company. A responsive layout has been developed and the site is based on WordPress",
+      "This is a commercial website for a logistics company. A responsive layout has been developed and the site is based on WordPress, I used also javascript",
   },
   {
     id: nanoid(),
