@@ -190,16 +190,16 @@ const education = [
 const languages = [
   {
     id: nanoid(),
-    title: "Ukrainian - native",
+    title: "Ukrainian - fluent"
   },
   {
     id: nanoid(),
-    title: "Russian - fluent",
+    title: "Russian - fluent"
   },
   {
     id: nanoid(),
-    title: "English - pre-intermediate",
-  },
+    title: "English - intermediate"
+  }
 ];
 
 const workExperience = [
