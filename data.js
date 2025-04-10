@@ -205,34 +205,54 @@ const languages = [
 const workExperience = [
   {
     id: nanoid(),
+    name: "Randonizer",
+    duration: "Jan 2024 - Aug 2024",
+    description: `We are an essential solution in providing the functionality for content management monetization across industries, which will improve a specific element of your value chain. "Value" - the result you get from using our service.`
+    // links: [
+    //   {
+    //     linkTitle: "AppStore",
+    //     linkUrl:
+    //       "https://apps.apple.com/ua/app/midnight-stories-choice-games/id6444111225?l=en"
+    //   },
+    //   {
+    //     linkTitle: "Google Play",
+    //     linkUrl:
+    //       "https://play.google.com/store/apps/details?id=com.DefaultCompany.Midnightstories"
+    //   }
+    // ]
+  },
+  {
+    id: nanoid(),
     name: "Readable games",
-    duration: "June 2023 - Now",
+    duration: "June 2023 - Jan 2024",
     description: `Game development, produces games - novels for the US market, work with Unity and Nani`,
     links: [
       {
         linkTitle: "AppStore",
-        linkUrl: "https://apps.apple.com/ua/app/midnight-stories-choice-games/id6444111225?l=en",
+        linkUrl:
+          "https://apps.apple.com/ua/app/midnight-stories-choice-games/id6444111225?l=en"
       },
       {
         linkTitle: "Google Play",
-        linkUrl: "https://play.google.com/store/apps/details?id=com.DefaultCompany.Midnightstories",
-      },
-    ],
+        linkUrl:
+          "https://play.google.com/store/apps/details?id=com.DefaultCompany.Midnightstories"
+      }
+    ]
   },
   {
     id: nanoid(),
     name: "IdealSoftWare",
     duration: "December 2022  -  June 2023",
     description:
-      "it's startUp, i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application.",
+      "it's startUp, i'm working on this project with experiences people who have a lot of years experience. Working on develop application about structurization of notes, and media files. Support for web version and mobile application."
   },
   {
     id: nanoid(),
     name: "BootCamp 24 GoIt",
     duration: "June 2022  -  December 2022",
     description:
-      "have 7 month experience of writing code in GoIt school on BootCamp (really writing code from 9 a.m. to 11 p. m. every day)",
-  },
+      "have 7 month experience of writing code in GoIt school on BootCamp (really writing code from 9 a.m. to 11 p. m. every day)"
+  }
 ];
 
 const projects = [
